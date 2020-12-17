@@ -1,0 +1,33 @@
+.student {
+	height: auto;
+	min-width: 300px;
+	max-width: 100%;
+	display: flex;
+	width: 100%;
+	display: flex;
+	border-bottom: hsl(280, 3%, 77%) 1px solid;
+	align-items: center;
+	justify-content: flex-start;
+	&__avatar {
+		border-radius: 200px;
+		border: #7e8077 1px solid;
+		border-color: hsl(280, 3%, 77%);
+	}
+	&__col {
+		flex-direction: column;
+		height: auto;
+	}
+	&__row {
+		flex-direction: row;
+	}
+	&__stats {
+		margin-left: 24px;
+		font-size: 12px;
+		color: #7e8077;
+		font-family: $roboto;
+	}
+	&__tagDiv {
+		display: flex;
+		flex-direction: column;
+	}
+}

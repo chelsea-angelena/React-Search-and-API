@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	font-size: 16px;
+	font-family: $roboto;
+	margin: 0 auto;
+	padding: 0;
+}
+h1,
+h2,
+div,
+p,
+li,
+ul,
+a {
+	padding: 4px 12px;
+}
+ul,
+ol,
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: 'black';
+	text-decoration: none;
+}
+p,
+div,
+a {
+	font-size: 14px;
+	font-family: $roboto;
+}
+.app {
+	max-width: 100%;
+	display: flex;
+	align-self: center;
+	
+}
