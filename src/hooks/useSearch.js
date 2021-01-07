@@ -5,12 +5,12 @@ const useSearch = () => {
 	const [results, setResults] = useState([]);
 	const [error, setError] = useState(null);
 	const [loading, setLoading] = useState(true);
-
+let url=""
 	useEffect(() => {
 		const callAPI = async () => {
 			try {
 				let res = await axios.get(
-					'https://api.hatchways.io/assessment/students'
+					url
 				);
 				setResults(res.data.students);
 			} catch (e) {
